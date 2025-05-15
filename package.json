@@ -1,6 +1,6 @@
 {
   "name": "jido-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper library for the Jido CLI. Includes types and utilities to write workflows, steps, and plugins with better developer experience.",
   "exports": {
     "./types": "./dist/types/index.d.ts"
