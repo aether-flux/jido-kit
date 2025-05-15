@@ -1,20 +1,69 @@
 {
   "name": "jido-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helper library for the Jido CLI. Includes types and utilities to write workflows, steps, and plugins with better developer experience.",
   "exports": {
     "./types": "./dist/types/index.d.ts"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE.txt"
   ],
   "scripts": {
     "build": "npx tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "jido",
+    "cli",
+    "workflow",
+    "automation",
+    "task-runner",
+    "plugin",
+    "devtool",
+    "devtools",
+    "developer-tools",
+    "workflow-automation",
+    "custom-cli",
+    "custom-cli-tool",
+    "config-types",
+    "typescript",
+    "typescript-types",
+    "intellisense",
+    "types",
+    "flow-runner",
+    "hook-system",
+    "node-cli",
+    "build-tool",
+    "js-cli",
+    "task-automation",
+    "step-runner",
+    "cli-types",
+    "plugin-support",
+    "plugin-system",
+    "cli-plugin",
+    "jido-cli",
+    "jido-kit",
+    "jido-plugin",
+    "workflow-cli",
+    "devx",
+    "dx"
+  ],
+  "author": "Amartya Chowdhury (aether-flux)",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aether-flux/jido-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/aether-flux/jido-kit/issues"
+  },
+  "homepage": "https://github.com/aether-flux/jido-kit",
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/aetherflux"
+  },
   "devDependencies": {
     "@types/node": "^22.15.17",
     "tsx": "^4.19.4",
